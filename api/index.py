@@ -10,7 +10,7 @@ class handler(BaseHTTPRequestHandler):
         OneTextRaw = json.loads(text)
         
         self.send_response(200)
-        self.send_header('Content-type','application/json')
+        self.send_header('Content-type','text/plain')
         self.end_headers()
         self.wfile.write(OneTextRaw.encode())
         
