@@ -9,10 +9,12 @@ class handler(BaseHTTPRequestHandler):
         text = url.text
         OneTextRaw = json.loads(text)
         OneText = OneTextRaw[random.randint(0,(len(OneTextRaw)-1))]
+        OneText = str(OneText)
+        OneText = OneText.replace("\'","\"")
         
         self.send_response(200)
         self.send_header('Content-type','application/json')
         self.end_headers()
-        self.wfile.write(str(OneText).encode())
+        self.wfile.write(OneText.encode())
         
         return
