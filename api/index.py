@@ -11,7 +11,6 @@ def select(a):
 class handler(BaseHTTPRequestHandler):
     
     def do_GET(self):
-        a = self.get_argument('category')
 
         url = requests.get("https://onetext.cicada000.work/Data.json")
         text = url.text
@@ -24,6 +23,5 @@ class handler(BaseHTTPRequestHandler):
         self.send_header('Content-type','application/json')
         self.end_headers()
         self.wfile.write(OneText.encode())
-        self.wfile.write(a.encode)
         
         return
