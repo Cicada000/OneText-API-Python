@@ -1,3 +1,5 @@
+import encodings
+from encodings.utf_8 import encode
 from flask import Flask, request
 import requests , json , random
 
@@ -22,8 +24,7 @@ def return_OneText():
     text = url.text
     OneTextRaw = json.loads(text)
     OneText = OneTextRaw[random.randint(0,(len(OneTextRaw)-1))]
-    OneText = str(OneText)
-    OneText = OneText.replace("\'","\"")
+    OneText = json.dumps(OneText , sort_keys=True , indent=4 , separators=(',',':') , ensure_ascii=False)
 
     return OneText, 200, {"Content-Type":"application/json"}
     
