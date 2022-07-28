@@ -6,12 +6,13 @@ def select(a):
     if str.title(str(a)) in list :
         return str.title(str(a))
     else :
-        return random.choice(list)
+        return random.choice(list) #class : str
 
 class handler(BaseHTTPRequestHandler):
     
     def do_GET(self):
-        
+        a = self.get_argument('category')
+
         url = requests.get("https://onetext.cicada000.work/Data.json")
         text = url.text
         OneTextRaw = json.loads(text)
@@ -23,5 +24,6 @@ class handler(BaseHTTPRequestHandler):
         self.send_header('Content-type','application/json')
         self.end_headers()
         self.wfile.write(OneText.encode())
+        self.wfile.write(a.encode)
         
         return
