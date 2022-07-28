@@ -1,6 +1,13 @@
 from http.server import BaseHTTPRequestHandler
 import json , requests , random
 
+def select(a):
+    list = ["Anime","Poem","Other"]
+    if str.title(str(a)) in list :
+        return str.title(str(a))
+    else :
+        return random.choice(list)
+
 class handler(BaseHTTPRequestHandler):
     
     def do_GET(self):
