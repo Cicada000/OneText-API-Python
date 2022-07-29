@@ -1,26 +1,51 @@
 [
     {
-        "text": "人生并非一条直路，而是有很多交叉口。人需要不断地选择自己前进的方向，向着目的地而去。",
-        "by": "桐山成人",
-        "from": "《十字路口》 春——海帆 三月\n百花洲文艺出版社 2015年9月第1版",
-        "time": "2022.1.16"
+        "text": "父母也不过是有了小孩的孩子罢了。",
+        "raw": "You know, parents are just kids having kids.",
+        "by": "莫蒂",
+        "from": "《瑞克和莫蒂》",
+        "time": "2022.7.29"
     },
     {
-        "text": "心向花开，何不朝夕。",
-        "by": "浙江省新昌中学 安则成",
-        "from": "《百年浅吟》\n《中学生天地》2018年10月A刊 总第838期",
-        "time": "2018.12.8"
+        "text": "人的出现是没有目的的 \n 人也不会属于任何地方 \n 每个人都会死去。",
+        "raw": "Nobody exists on purpos. \n Nobody belongs anywhere. \n Everybody's gonna die.",
+        "by": "莫蒂",
+        "from": "《瑞克和莫蒂》",
+        "time": "2022.7.29"
     },
     {
-        "text": "因为人生就像是接力赛跑的第一棒，自己不动起来，就没办法开始。",
-        "by": "住野夜",
-        "from": "《又做了，相同的梦》\n悦知文化 2017年12月首版一刷",
-        "time": "2022.1.16"
+        "text": "科学而言，传统是傻瓜的事。",
+        "raw": "Well, scientifically, traditions are anidoit thing.",
+        "by": "瑞克",
+        "from": "《瑞克和莫蒂》",
+        "time": "2022.7.29"
     },
     {
-        "text": "太阳离开了\n星星就会来\n而你离开我\n还会有谁呢",
-        "by": "河南省长葛市第一高级中学 黄荣荣",
-        "from": "《离歌》\n《校园第一阅读》2016年7月刊 总第63期",
-        "time": "2018.12.12"
+        "text": "作业有害智商，少做才是正解",
+        "raw": "Homework is stupid.The whole point is to get less of it.",
+        "by": "瑞克",
+        "from": "《瑞克和莫蒂》",
+        "time": "2022.7.29"
+    },
+    {
+        "text": "好的冒险需要一个好的结局",
+        "raw": "You know, a good adventure needs a good ending.",
+        "by": "瑞克",
+        "from": "《瑞克和莫蒂》",
+        "time": "2022.7.29"
+    },
+    {
+        "text": "生活就是要敢于冒险 \n 否则你就称不上生命 \n 只是一团随机排布的分子  \n 在宇宙之中随波逐流",
+        "raw": "To live is to risk it all. \n Otherwise, you're just an inert chunk of randomly assmbled molecules drifting wherever the universe blows you.",
+        "by": "瑞克",
+        "from": "《瑞克和莫蒂》",
+        "time": "2022.7.29"
+    },
+    {
+        "text": "别为失败做打算 \n 这比庸常的打算还要愚蠢",
+        "raw": "That's planning for failure. \n Even dumber than regular planning.",
+        "by": "瑞克",
+        "from": "《瑞克和莫蒂》",
+        "time": "2022.7.29"
     }
 ]
