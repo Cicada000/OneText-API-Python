@@ -22,7 +22,7 @@
 
 ### 使用GET请求返回指定句子
 
-&emsp;&emsp;在请求URL后加&emsp; /?category=XXX &emsp;返回XXX类型的句子，例如输入&emsp;[https://onetext.cicada000.work/?category=Anime](https://onetext.cicada000.work/api/?category=Anime)&emsp;则返回&emsp;[Anime.json](https://github.com/Cicada000/OneText-API-Python/blob/main/Anime.json)&emsp;中的句子，目前有**Anime**、**Poem**、**Other**三类。（参数不区分大小写）
+&emsp;&emsp;在请求URL后加&emsp; /?category=XXX &emsp;返回XXX类型的句子，例如输入&emsp;[https://onetext.cicada000.work/api/?category=Anime](https://onetext.cicada000.work/api/?category=Anime)&emsp;则返回&emsp;[Anime.json](https://github.com/Cicada000/OneText-API-Python/blob/main/Anime.json)&emsp;中的句子，目前有**Anime**、**Poem**、**Other**三类。（参数不区分大小写）
 
 ### 使用Vercel一键部署
 
