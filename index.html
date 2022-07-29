@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OneText Test</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        t = Math.round(Math.random()*1); 
+        var data = $.parseJSON($.ajax({
+            url: "https://onetext.cicada000.work/api?category=anime", 
+            dataType: "json",
+            async: false
+        }).responseText);
+        console.log(data)
+    </script>
+</head>
+<body style="background-color: #7bd5ff;">
+
+    <p style="white-space: pre-line;"><script>document.write(data.text)</script></p>
+
+</body>
+</html>
