@@ -25,5 +25,5 @@ def return_OneText():
     OneText = OneTextRaw[random.randint(0,(len(OneTextRaw)-1))]
     OneText = json.dumps(OneText , sort_keys=False , indent=4 , separators=(',',':') , ensure_ascii=False)
 
-    return OneText, 200, {"Content-Type":"application/json"}
+    return OneText.encode(), 200, {"Content-Type":"application/json"}
     
