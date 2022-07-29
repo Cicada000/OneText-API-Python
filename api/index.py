@@ -1,5 +1,3 @@
-import encodings
-from encodings.utf_8 import encode
 from flask import Flask, request
 import requests , json , random
 
