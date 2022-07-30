@@ -1,21 +1,36 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>OneText Test</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script>
-        t = Math.round(Math.random()*1); 
-        var data = $.parseJSON($.ajax({
-            url: "https://onetext.cicada000.work/api?category=anime", 
-            dataType: "json",
-            async: false
-        }).responseText);
-        console.log(data)
-    </script>
+<!DOCTYPE html>
+<html lang="en" style="--theme:#66ccff;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="/index.css">
+  <title>OneText</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script>
+      t = Math.round(Math.random()*1); 
+      var data = $.parseJSON($.ajax({
+          url: "https://onetext.cicada000.work/api", 
+          dataType: "json",
+          async: false
+      }).responseText);
+      console.log(data)
+  </script>
 </head>
-<body style="background-color: #7bd5ff;">
+<body>
+  <div class="sentence-box">
+    <div class="sentence-text">
+      <svg t="1637286954663" class="icon" viewBox="0 0 1195 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2543" width="32" height="32"><path d="M1125.400405 972.814933 651.636395 972.814933 651.636395 631.106304C651.636395 491.702016 663.719168 382.333696 687.885227 302.997931 712.0512 223.662165 737.181781 170.700459 802.935893 107.231829 868.68992 43.763285 914.312789 24.717568 1010.828373 0L1078.255957 145.030059C1010.828373 170.796971 969.749333 182.289237 906.391381 248.024235 843.033429 313.759232 838.360149 377.340075 838.360149 431.988736L1125.400405 431.988736 1125.400405 972.814933ZM473.764096 972.814933 0 972.814933 0 631.106304C0 491.702016 12.082859 382.333696 36.248832 302.997931 60.414891 223.662165 85.545472 170.700459 151.299499 107.231829 217.053611 43.763285 262.676395 24.717568 359.192064 0L426.619563 145.030059C359.192064 170.796971 318.112939 182.289237 254.754987 248.024235 191.397035 313.759232 186.723755 377.340075 186.723755 431.988736L473.764096 431.988736 473.764096 972.814933Z" p-id="2544"></path></svg>
+      <span class="text" style="white-space: pre-line;"><script>document.write(data.text)</script></span>
+    </div>
+    <div class="from">
+      <span>
+        -- <i><script>document.write(data.from)</script></i>
+      </span>
+    </div>
+    <div class="sentence-actions">
+      <button class="new-sentence" onclick="javascript:location.reload()">
+        <span>一言</span>
+        <svg t="1637304988693" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3872" width="16" height="16"><path d="M874.00259 971.2c-14 0.1-25.5-11.3-25.5-25.3 0-6.7 2.6-13.2 7.4-18l80.7-80.8H821.30259c-103 0-200-61.6-266.2-168.9L366.70259 373.3C309.80259 281.5 228.60259 228.9 144.00259 228.9H25.50259c-14.3-0.2-25.7-12-25.5-26.2 0.1-6.6 2.7-13 7.4-17.7 4.8-4.8 11.3-7.6 18.1-7.5h118.7c103 0 200.1 61.5 266.2 168.7L598.80259 651c56.8 91.9 138 144.6 222.7 144.6h115.1L856.00259 714.8c-10.1-9.9-10.3-26.1-0.5-36.2 9.9-10.1 26.1-10.3 36.2-0.5l0.4 0.4 124.3 124.3c10 10 10 26.1 0.1 36.1l-0.1 0.1-124.2 124.7c-4.8 4.8-11.4 7.5-18.2 7.5zM140.20259 847.1H25.50259c-14.3-0.2-25.7-12-25.5-26.2 0.1-6.6 2.7-13 7.4-17.7 4.8-4.8 11.3-7.6 18.1-7.5H140.00259c84.7 0 165.9-52.7 222.7-144.6l31.3-50.6c4.7-7.6 13-12.3 21.9-12.3 4.7 0 9.4 1.3 13.4 3.9 12.1 7.4 15.8 23.1 8.5 35.2 0 0.1-0.1 0.1-0.1 0.2L406.40259 678c-66.2 107-163.2 168.7-266.2 169.1z m413.9-430.8c-4.7 0-9.3-1.3-13.4-3.8-12.1-7.4-15.8-23.2-8.5-35.2 0-0.1 0.1-0.1 0.1-0.2l19.2-31.2c66.2-107.2 163.3-168.7 266.2-168.7h118.9l-80.7-80.8c-10-10-10-26.1-0.1-36.1l0.1-0.1c9.9-10 26-10.1 36-0.2l0.2 0.2 124.1 124.6c10 10 10.1 26.1 0.2 36.2L892.20259 345.6c-9.8 10.2-26.1 10.5-36.3 0.6-10.2-9.8-10.5-26.1-0.6-36.3l0.6-0.6 80.7-80.8H817.80259c-84.8 0-166 52.6-222.7 144.4l-19.2 31.2c-4.8 7.6-12.9 12.2-21.8 12.2z" p-id="3873" fill="#ffffff"></path></svg>
+      </button>
+    </div>
+    <div class="loading" style="visibility: hidden;"></div>
+  </div>
 
-    <p style="white-space: pre-line;"><script>document.write(data.text)</script></p>
-
-</body>
-</html>
+</body></html>
