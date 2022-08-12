@@ -4,68 +4,78 @@
         "raw": "You know, parents are just kids having kids.",
         "by": "莫蒂",
         "from": "《瑞克和莫蒂》 第一季 第七集",
-        "time": "2014.3.10"
+        "time": "2014.3.10",
+        "id":"Anime-1"
     },
     {
         "text": "人的出现是没有目的的 \n 人也不会属于任何地方 \n 每个人都会死去。",
         "raw": "Nobody exists on purpos. \n Nobody belongs anywhere. \n Everybody's gonna die.",
         "by": "莫蒂",
         "from": "《瑞克和莫蒂》 第一季 第八集",
-        "time": "2014.3.17"
+        "time": "2014.3.17",
+        "id":"Anime-2"
     },
     {
         "text": "科学而言，传统是傻瓜的事。",
         "raw": "Well, scientifically, traditions are anidoit thing.",
         "by": "瑞克",
         "from": "《瑞克和莫蒂》",
-        "time": "2022.7.29"
+        "time": "2022.7.29",
+        "id":"Anime-3"
     },
     {
         "text": "作业有害智商，少做才是正解",
         "raw": "Homework is stupid.The whole point is to get less of it.",
         "by": "瑞克",
         "from": "《瑞克和莫蒂》 第一季 第二集",
-        "time": "2013.12.9"
+        "time": "2013.12.9",
+        "id":"Anime-4"
     },
     {
         "text": "好的冒险需要一个好的结局",
         "raw": "You know, a good adventure needs a good ending.",
         "by": "瑞克",
         "from": "《瑞克和莫蒂》 第一季 第五集",
-        "time": "2014.1.20"
+        "time": "2014.1.20",
+        "id":"Anime-5"
     },
     {
         "text": "生活就是要敢于冒险 \n 否则你就称不上生命 \n 只是一团随机排布的分子  \n 在宇宙之中随波逐流",
         "raw": "To live is to risk it all. \n Otherwise, you're just an inert chunk of randomly assmbled molecules drifting wherever the universe blows you.",
         "by": "瑞克",
         "from": "《瑞克和莫蒂》 第三季 ",
-        "time": "2017.7.30"
+        "time": "2017.7.30",
+        "id":"Anime-6"
     },
     {
         "text": "别为失败做打算，这比庸常的打算还要愚蠢",
         "raw": "That's planning for failure. Even dumber than regular planning.",
         "by": "瑞克",
         "from": "《瑞克和莫蒂》",
-        "time": "2022.7.29"
+        "time": "2022.7.29",
+        "id":"Anime-7"
     },
     {
         "text": "我很痛苦，请救救我",
         "raw": "Wubba Lubba dub-dub",
         "by": "瑞克",
         "from": "《瑞克和莫蒂》 第一季 第五集",
-        "time": "2014.1.20"
+        "time": "2014.1.20",
+        "id":"Anime-8"
     },
     {
         "text": "我们所度过的每个平凡的日常，也许就是连续发生的奇迹。",
         "raw": "日々私たちが过ごしている日常というのは、実は奇迹の连続なのかもしれん。",
         "by": "笹原幸治郎",
         "from": "《日常》",
-        "time": "2011"
+        "time": "2011",
+        "id":"Anime-9"
     },
     {
         "text": "或许，青春本来就是不完美的吧。",
         "by": "井上雄彦",
         "from": "《灌篮高手》",
-        "time": "1993"
+        "time": "1993",
+        "id":"Anime-10"
     }
 ]
