@@ -25,6 +25,8 @@
 
 &emsp;&emsp;在请求URL后加&emsp; ?category=XXX &emsp;返回XXX类型的句子，例如输入&emsp;[https://onetext.cicada000.work/api?category=Anime](https://onetext.cicada000.work/api?category=Anime)&emsp;则返回&emsp;[Anime.json](https://github.com/Cicada000/OneText-API-Python/blob/main/Anime.json)&emsp;中的句子，目前有**Anime**、**Poem**、**Other**三类。（参数不区分大小写）
 
+&emsp;&emsp;暂不支持使用id来获取句子。
+
 ### 使用Vercel一键部署
 
 &emsp;&emsp;点击下方按钮根据提示操作即可
