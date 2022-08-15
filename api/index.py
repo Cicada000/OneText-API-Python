@@ -4,7 +4,7 @@ import requests , json , random
 def select(a):
     list = ["ACGN","POEM","OTHER"]
     if str.upper(str(a)) in list :
-        return str.title(str(a))
+        return str.upper(str(a))
     else :
         return random.choice(list)
 
