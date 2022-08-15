@@ -23,7 +23,7 @@
 
 ### 使用GET请求返回指定句子
 
-&emsp;&emsp;在请求URL后加&emsp; ?category=XXX &emsp;返回XXX类型的句子，例如输入&emsp;[https://onetext.cicada000.work/api?category=ACGN](https://onetext.cicada000.work/api?category=ACGN)&emsp;则返回&emsp;[ACGN.json](https://github.com/Cicada000/OneText-API-Python/blob/main/ACGN.json)&emsp;中的句子，目前有**ACGN**、**Poem**、**Other**三类。（参数不区分大小写）
+&emsp;&emsp;在请求URL后加&emsp; ?category=XXX &emsp;返回XXX类型的句子，例如输入&emsp;[https://onetext.cicada000.work/api?category=ACGN](https://onetext.cicada000.work/api?category=ACGN)&emsp;则返回&emsp;[ACGN.json](https://github.com/Cicada000/OneText-API-Python/blob/main/ACGN.json)&emsp;中的句子，目前有**ACGN**、**POEM**、**OTHER**三类。（参数不区分大小写）
 
 &emsp;&emsp;暂不支持使用id来获取句子。
 
