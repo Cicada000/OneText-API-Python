@@ -7,9 +7,9 @@
 ```python
 
 def select(a):
-    list = ["Anime","Poem","Other"] #各个类别
+    list = ["ACGN","Poem","Other"] #各个类别
     if str.title(str(a)) in list : #判断GET参数是否在列表中
-        return str.title(str(a)) #返回GET参数，首字母大写
+        return str.title(str(a)) #返回GET参数，全部大写
     else :
         return random.choice(list) #随机返回列表元素
 

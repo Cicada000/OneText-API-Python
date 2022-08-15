@@ -2,8 +2,8 @@ from flask import Flask, request
 import requests , json , random
 
 def select(a):
-    list = ["Anime","Poem","Other"]
-    if str.title(str(a)) in list :
+    list = ["ACGN","POEM","OTHER"]
+    if str.upper(str(a)) in list :
         return str.title(str(a))
     else :
         return random.choice(list)
