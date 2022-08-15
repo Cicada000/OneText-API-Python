@@ -7,9 +7,9 @@
 ```python
 
 def select(a):
-    list = ["ACGN","Poem","Other"] #各个类别
-    if str.title(str(a)) in list : #判断GET参数是否在列表中
-        return str.title(str(a)) #返回GET参数，全部大写
+    list = ["ACGN","POEM","OTHER"] #各个类别
+    if str.upper(str(a)) in list : #判断GET参数是否在列表中
+        return str.upper(str(a)) #返回GET参数，全部大写
     else :
         return random.choice(list) #随机返回列表元素
 
@@ -25,7 +25,8 @@ def select(a):
     "text":"逸一时，误一世，逸久逸久罢矣龄。",
     "by":"田所浩二",
     "from":"《真夏の夜の淫梦》",
-    "time":"1919.8.10"
+    "time":"1919.8.10"，
+    “id”:"OTHER-1"
 }
 
 ```
@@ -33,7 +34,7 @@ def select(a):
 
 ```json
 
-{"text":"逸一时，误一世，逸久逸久罢矣龄。","by":"田所浩二","from":"《真夏の夜の淫梦》","time":"1919.8.10"}
+{"text":"逸一时，误一世，逸久逸久罢矣龄。","by":"田所浩二","from":"《真夏の夜の淫梦》","time":"1919.8.10","id":"OTHER-1"}
 
 ```
 
