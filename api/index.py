@@ -15,7 +15,12 @@ app = Flask(__name__)
 def return_OneText():
 
     category = request.args.get("category")
-    category = select(str(category))
+    if category == None :
+        category =  select(category)
+    else :
+        category = category.split()
+        category = random.choice(category)
+        category = select(category)
 
     url = requests.get("https://onetext.cicada000.work/" + category + ".json")
     text = url.text
