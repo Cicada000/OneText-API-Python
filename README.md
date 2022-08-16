@@ -39,4 +39,7 @@
 
 &emsp;&emsp;关于修改项目具体参数，须在 &emsp; [/api/index.py](https://github.com/Cicada000/OneText-API-Python/blob/main/api/index.py) &emsp; 中修改，具体参考 &emsp; [/api/README.md](https://github.com/Cicada000/OneText-API-Python/blob/main/api/README.md)
 
+## TODO
+
+&emsp;&emsp;使用id参数获取句子
 
