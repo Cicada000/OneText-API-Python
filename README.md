@@ -41,5 +41,5 @@
 
 ## TODO
 
-&emsp;&emsp;使用id参数获取句子
+&emsp;&emsp;使用id参数获取句子。
 
