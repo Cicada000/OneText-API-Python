@@ -42,3 +42,5 @@
 ## TODO
 
 &emsp;&emsp;使用id参数获取句子
+
+&emsp;&emsp;返回图片格式一言
