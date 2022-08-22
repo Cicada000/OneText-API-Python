@@ -23,13 +23,19 @@
 
 ### 使用GET请求返回指定句子
 
+### &emsp;&emsp;**参数category**
+
 &emsp;&emsp;在请求URL后加 &emsp; ?category=XXX &emsp; 返回XXX类型的句子，例如输入 &emsp; [https://onetext.cicada000.work/api?category=ACGN](https://onetext.cicada000.work/api?category=ACGN) &emsp; 则返回 &emsp; [ACGN.json](https://github.com/Cicada000/OneText-API-Python/blob/main/ACGN.json) &emsp; 中的句子，目前有**ACGN**、**POEM**、**OTHER**三类。（参数不区分大小写）
 
 &emsp;&emsp;如果你想获取多个类别中的句子，可以使用 &emsp; + &emsp; 分隔类别，例如输入 &emsp; [https://onetext.cicada000.work/api?category=ACGN+POEM](https://onetext.cicada000.work/api?category=ACGN+POEM) &emsp; 则会返回 &emsp; [ACGN.json](https://github.com/Cicada000/OneText-API-Python/blob/main/ACGN.json) &emsp; [POEM.json](https://github.com/Cicada000/OneText-API-Python/blob/main/POEM.json) &emsp; 中其中一类的句子。
 
-&emsp;&emsp;值得注意的是，如果GET参数填写错误，还是会返回所有类别的句子。
+&emsp;&emsp;值得注意的是，如果GET请求的参数填写错误，还是会返回所有类别的句子。
 
-&emsp;&emsp;暂不支持使用id来获取句子。
+### &emsp;&emsp;**参数id**
+
+&emsp;&emsp;在请求URL后加 &emsp; ?id=xxxx-x &emsp; 返回xxxx类型中的第x条句子（具体id可见json文件中每个句子的id参数），例如输入 &emsp; [https://onetext.cicada000.work/api?id=other-3](https://onetext.cicada000.work/api?id=other-3) &emsp;则返回 &emsp; [OTHER.json](https://github.com/Cicada000/OneText-API-Python/blob/main/OTHER.json) &emsp; 中的第三条句子。
+
+&emsp;&emsp;值得注意的是，当id参数和category参数同时出现在GET请求中时，会优先使用id参数。
 
 ### 使用Vercel一键部署
 
@@ -41,6 +47,6 @@
 
 ## TODO
 
-&emsp;&emsp;使用id参数获取句子
+- [x]使用id参数获取句子
 
-&emsp;&emsp;返回图片格式一言
+- [ ]返回图片格式一言

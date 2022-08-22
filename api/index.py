@@ -15,6 +15,14 @@ app = Flask(__name__)
 def return_OneText():
 
     category = request.args.get("category")
+    id = request.args.get("id")
+    number = -1
+
+    if id != None :
+        id = id.split("-")
+        category = id[0]
+        number = int(id[1])-1
+    
     if category == None :
         category =  select(category)
     else :
@@ -25,7 +33,13 @@ def return_OneText():
     url = requests.get("https://onetext.cicada000.work/" + category + ".json")
     text = url.text
     OneTextRaw = json.loads(text)
-    OneText = OneTextRaw[random.randint(0,(len(OneTextRaw) - 1))]
+
+    if number == -1:
+        number = random.randint(0,(len(OneTextRaw) - 1))
+    else :
+        number = number
+
+    OneText = OneTextRaw[number]
     OneText = json.dumps(OneText , sort_keys = False , indent = 4 , separators = (',',':') , ensure_ascii = False)
  
     return OneText.encode(), 200, {"Content-Type":"application/json" , "Charset":"UTF-8"}
