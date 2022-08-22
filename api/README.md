@@ -26,7 +26,7 @@ def select(a):
     "by":"田所浩二",
     "from":"《真夏の夜の淫梦》",
     "time":"1919.8.10",
-    “id”:"OTHER-1"
+    "id":"OTHER-1"
 }
 
 ```
