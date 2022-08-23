@@ -21,6 +21,7 @@ def return_OneText():
     if id != None :
         id = id.split("-")
         category = id[0]
+        id += '0'
         number = int(id[1])-1
     
     if category == None :
