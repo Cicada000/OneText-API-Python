@@ -12,5 +12,13 @@
         "from": "《题扬州禅智寺》",
         "time": "唐",
         "id":"POEM-2"
+    },
+    {
+        "text": "我们已经走得太远，\n以至于忘记了为什么而出发。",
+        "raw" :"We already walked too far, \ndown to we had forgotten why embarked.",
+        "by": "卡里·纪伯伦",
+        "from": "《先知》",
+        "time": "1906",
+        "id":"POEM-3"
     }
 ]
