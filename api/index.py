@@ -10,7 +10,7 @@ def select(a):
 
 app = Flask(__name__)
 
-@app.route('/json',methods=["GET"])
+@app.route('/api',methods=["GET"])
 
 def return_OneText():
 
