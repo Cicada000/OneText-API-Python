@@ -47,7 +47,7 @@ def return_OneText():
     return OneText.encode(), 200, {"Content-Type":"application/json" , "Charset":"UTF-8"}
     
 
-@app.route('/')
+@app.route('/image')
 
 def build():
 
