@@ -3,5 +3,3 @@ requests
 jinja2
 pyjson
 pyrandom
-pybase64
-pillow
