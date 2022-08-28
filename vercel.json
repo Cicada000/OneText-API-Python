@@ -2,11 +2,7 @@
   "rewrites": [
       {
           "source": "/(.*)",
-          "destination": "/api/json.py"
-      },
-      {
-          "source": "/(.*)",
-          "destination": "/api/image.py"
+          "destination": "/api/index.py"
       }
   ]
 }
