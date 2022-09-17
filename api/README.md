@@ -7,7 +7,7 @@
 ```python
 
 def select(a):
-    list = ["ACGN","POEM","OTHER"] #各个类别
+    list = ["ACGN","POEM","OTHER","LYRICS"] #各个类别
     if str.upper(str(a)) in list : #判断GET参数是否在列表中
         return str.upper(str(a)) #返回GET参数，全部大写
     else :

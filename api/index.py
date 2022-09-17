@@ -2,7 +2,7 @@ from flask import Flask , request
 import requests , json , random
 
 def select(a):
-    list = ["ACGN","POEM","OTHER"]
+    list = ["ACGN","POEM","OTHER","LYRICS"]
     if str.upper(str(a)) in list :
         return str.upper(str(a))
     else :

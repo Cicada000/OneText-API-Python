@@ -25,7 +25,7 @@
 
 ### &emsp;&emsp;**参数category**
 
-&emsp;&emsp;在请求URL后加 **?category=XXX** 返回XXX类型的句子，例如输入[https://onetext.cicada000.work/api?category=ACGN](https://onetext.cicada000.work/api?category=ACGN)则返回[ACGN.json](https://github.com/Cicada000/OneText-API-Python/blob/main/ACGN.json)中的句子，目前有**ACGN**、**POEM**、**OTHER**三类。（参数不区分大小写）
+&emsp;&emsp;在请求URL后加 **?category=XXX** 返回XXX类型的句子，例如输入[https://onetext.cicada000.work/api?category=ACGN](https://onetext.cicada000.work/api?category=ACGN)则返回[ACGN.json](https://github.com/Cicada000/OneText-API-Python/blob/main/ACGN.json)中的句子，目前有**ACGN**、**POEM**、**OTHER**、**LYRICS**四类。（参数不区分大小写）
 
 &emsp;&emsp;如果你想获取多个类别中的句子，可以使用 + 分隔类别，例如输入[https://onetext.cicada000.work/api?category=ACGN+POEM](https://onetext.cicada000.work/api?category=ACGN+POEM)则会返回[ACGN.json](https://github.com/Cicada000/OneText-API-Python/blob/main/ACGN.json)[POEM.json](https://github.com/Cicada000/OneText-API-Python/blob/main/POEM.json)中其中一类的句子。
 
