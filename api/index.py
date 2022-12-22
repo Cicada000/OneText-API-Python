@@ -44,4 +44,4 @@ def return_OneText():
     OneText = OneTextRaw[number]
     OneText = json.dumps(OneText , sort_keys = False , indent = 4 , separators = (',',':') , ensure_ascii = False)
  
-    return jsonify(OneText)
+    return jsonify({OneText})
