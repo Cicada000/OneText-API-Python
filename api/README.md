@@ -15,42 +15,7 @@ def select(a):
 
 ```
 
-## JSON的格式化修改
-
-&emsp;&emsp;一般情况下，你看到的返回的JSON格式应该是这样：
-
-```json
-
-{
-    "text":"逸一时，误一世，逸久逸久罢矣龄。",
-    "by":"田所浩二",
-    "from":"《真夏の夜の淫梦》",
-    "time":"1919.8.10",
-    "id":"OTHER-1"
-}
-
-```
-&emsp;&emsp;如果你想让它像下面这样显示或改变其他显示样式 &emsp; ~~虽然我觉得没人会想这么干~~：
-
-```json
-
-{"text":"逸一时，误一世，逸久逸久罢矣龄。","by":"田所浩二","from":"《真夏の夜の淫梦》","time":"1919.8.10","id":"OTHER-1"}
-
-```
-
-&emsp;&emsp;你可以将**json.dumps**函数内的参数进行修改，具体见下：
-
-```python
-
-OneText = json.dumps(OneText , 
-                    sort_keys = False , #是否按字母排序
-                    indent = 4 ,  #开头空格数
-                    separators = (',',':') ,  #遇到','换行，删去该参数即可返回上方JSON格式
-                    ensure_ascii = False) #字符编码，删去该参数中文采用Unicode编码
-
-```
-
-## 最后值得注意的一点
+## 值得注意的一点
 
 &emsp;&emsp;别忘了把获取JSON的域名改成部署你项目的域名。
 
