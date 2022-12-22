@@ -43,4 +43,4 @@ def return_OneText():
 
     OneText = OneTextRaw[number]
  
-    return jsonify({OneText})
+    return jsonify(OneText)
