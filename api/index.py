@@ -11,7 +11,7 @@ def select(a):
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 
-@app.route('/api',methods=["GET"])
+@app.route('/',methods=["GET"])
 
 def return_OneText():
 
