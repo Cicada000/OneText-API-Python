@@ -9,6 +9,7 @@ def select(a):
         return random.choice(list)
 
 app = Flask(__name__)
+app.config['JSON_AS_ASCII'] = False
 
 @app.route('/api',methods=["GET"])
 
