@@ -45,7 +45,7 @@
 
 &emsp;&emsp;[![Powered by Vercel](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/Cicada000/OneText-API-Python)
 
-&emsp;&emsp;关于修改项目具体参数，须在[/index.py](https://github.com/Cicada000/OneText-API-Python/blob/main/index.py)中修改，具体参考[/README.md](https://github.com/Cicada000/OneText-API-Python/blob/main/README.md)
+&emsp;&emsp;关于修改项目具体参数，须在[/index.py](https://github.com/Cicada000/OneText-API-Python/blob/main/api/index.py)中修改，具体参考[/README.md](https://github.com/Cicada000/OneText-API-Python/blob/main/README.md)
 
 ## TODO
 
