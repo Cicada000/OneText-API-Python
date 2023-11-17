@@ -49,4 +49,4 @@
 
 ## TODO
 
-返回图片格式一言
+返回图片格式一言，详见[Onetext-Image](https://github.com/Cicada000/Onetext-Image)
