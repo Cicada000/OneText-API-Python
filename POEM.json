@@ -28,5 +28,12 @@
         "from": "StandWithUkraine",
         "time": "2022",
         "id": "POEM-4"
+    },
+    {
+        "text": "生活，是一次伟大的失眠。",
+        "by": "费尔南多·佩索阿",
+        "from": "《惶然录》",
+        "time": "1931",
+        "id":"POEM-5"
     }
 ]
